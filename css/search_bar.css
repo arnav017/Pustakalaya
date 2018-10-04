@@ -1,0 +1,60 @@
+.search_bar{
+    box-sizing: border-box;
+    position: fixed;
+    width: calc(100%);
+    background: #FFD966;
+    padding: 0 40px;
+    border-bottom:1px solid #000;
+    top: 0%;
+    z-index: 100;
+}
+
+.search_bar>h1, .search_bar>form {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 7px auto;
+}
+
+.search_bar>form>select{
+  display: inline-block;
+  vertical-align: top;
+  padding: 9px;
+  border-radius: 5px;
+  border: 3px solid #FFC822;
+}
+
+.search_bar>h1{
+    text-align: center;
+    width: 35%;
+/*    font-size: 2em;*/
+    text-shadow: 1px 1px 1px #000a;
+}
+
+.search_bar>form {
+    width: 50%;
+}
+
+.search_bar>form>#search_box{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width:70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #FFC822;
+}
+.search_bar>form>input[type='submit']
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #FF9933;
+    color: azure;
+    border: 3px solid #FFC822;
+}
+
+.search_bar>form>input[type='submit']:hover{
+    background: #E67300;
+    color: #fff;
+}

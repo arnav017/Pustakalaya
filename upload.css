@@ -1,0 +1,86 @@
+.upload_frame{
+  margin: 50px auto;
+  padding:20px;
+  border-radius: 10px;
+  width: 500px;
+  background-color: #fffffff0;
+  box-sizing: border-box;
+}
+
+.upload_frame>form>.inner_block{
+  border:1px solid;
+  padding: 10px;
+  margin: 10px;
+  border-color:#CCCCCC;
+}
+
+.inner_block:hover{
+  background-color: #ebebeb;
+}
+
+.input_field{
+  display:none;
+  font-size: 11pt;
+  border-style:none;
+  vertical-align: middle;
+  overflow:hidden;
+  border:0.6px solid #626262;
+}
+
+.block_name{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.display_block{
+  display:inline-block;
+  vertical-align:middle;
+  overflow:hidden;
+  color:#999999;
+  border:none;
+  width:294px;
+  word-wrap:break-word;
+  outline:none;
+}
+
+.checkmark{
+  background-image:url('img/check_green.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: right;
+  height: 12px;
+  width: 12px;
+}
+
+.check_grey{
+  background-image:url('img/check_grey.png');
+}
+
+.check_green{
+  display:none;
+  background-image:url('img/check_green.png');
+}
+
+.upload_frame>form>div:nth-child(8){
+  text-align: center;
+}
+
+.upload_frame>form>div>input[type='submit']
+{
+  padding: 10px 15px;
+  background-color: #FF9933;
+  color: #fff;
+  border-radius: 2px;
+  border-style: none;
+  font-size: large;
+  letter-spacing: 1px;
+  cursor: pointer;
+  /* box-shadow: 1px 1px 1px #000; */
+}
+
+.upload_frame>form>div>input[type='submit']:hover
+{
+  background-color: #FF9933;
+  box-shadow: 1px 1px 1px #0009;
+  background-color: #F07800;
+}

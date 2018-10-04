@@ -1,0 +1,131 @@
+.loginbox{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.loginbox hr{
+  opacity: .4;
+  margin-bottom: 20px;
+}
+
+.loginbox>.loginform,.loginbox>.signupform{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 20px;
+  padding: 0px 15px 15px;
+}
+
+.loginbox>.loginform{
+  width:calc(38%);
+}
+
+.loginbox>.signupform{
+  width:calc(61%);
+  background-color: #FDF4DA;
+}
+
+
+.signupform .tncdiv{
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.loginform .sdiv{
+  box-sizing: border-box;
+  margin-top: 10px;
+  /* display: inline-block; */
+}
+
+
+.loginbox h1{
+    box-sizing: border-box;
+  /* margin-bottom: 10px; */
+}
+
+.bprop{
+  box-sizing: border-box;
+  width: 90%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.signupform .bprop{;
+  width: 45%;
+}
+
+.loginbox div>h3{
+  box-sizing: border-box;
+  margin: 10px;
+  letter-spacing: 1.2;
+}
+
+.loginbox .input{
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #0004;
+  width: 95%;
+}
+
+.loginbox form .submit{
+  box-sizing: border-box;
+  float: right;
+  padding: 7px 27px;
+  margin: auto 40px;
+  /* background-color: blue;#FF8A15; */
+  border: none;1px solid #FFA953;
+  border-radius: 10px;
+  font-size: medium;
+  cursor: pointer;
+  opacity: .9;
+  color: #000;
+}
+
+.loginbox form .submit:hover{
+  background-color: #F27900;
+  box-shadow: 0px 0px 4px #F27900;
+  color: #fff;
+}
+
+.loginbox>.signinothers{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.loginbox>.signinothers a{
+  box-sizing: border-box;
+  letter-spacing: 2;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.loginbox>.signinothers a:nth-child(1){
+  background-color: #3B5998;
+  color: #fff;
+  margin-right: 15px;
+  font-weight: bolder;
+}
+
+.loginbox>.signinothers a:nth-child(1):hover{
+  background-color: #6483C4;
+  color: #181818;
+  font-weight: 900;
+}
+
+.loginbox>.signinothers a:nth-child(2){
+  background-color: #DF4B37;
+  color: #fff;
+  margin-left: 15px;
+  font-weight: bolder;
+}
+
+.loginbox>.signinothers a:nth-child(2):hover{
+  background-color: #CA3520;
+  color: #181818;
+  font-weight: 900;
+}

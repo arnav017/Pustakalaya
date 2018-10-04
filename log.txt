@@ -1,0 +1,7 @@
+23-03-2018 06:11 Arnav
+---------------------------------------------------
+Changed link to 'forgot password' and name of form entries in "login.php".
+Changed the link to 'home.php' in div/search_bar when clicked on home link from "http://localhost/bookcart/home.php" to "http://localhost/kuch/bookcart/home.php"
+Added few files in vendor folder and two more files named composer.json and composer.lock for mailing functionality.
+Created emailExample.php etc.
+---------------------------------------------------

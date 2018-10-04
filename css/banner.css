@@ -1,0 +1,83 @@
+.banner{
+  width: auto;
+  background: #40404040;
+  opacity: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto 10px;
+}
+
+
+.banner>div{
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.banner>div>div{
+  width: 7.5%;
+  height: 140px;
+  display: inline-block;
+  vertical-align: top;
+  background: #040404;
+  padding: 4PX;
+  border-radius: 20px;
+  line-height: 140px;
+}
+
+.banner>div>div>img{
+  width: 100%;
+  vertical-align: middle;
+  opacity: .75;
+  /* background-color: #f00; */
+  filter: contrast(170%) invert(132%);
+}
+
+.banner>div>div>img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+.banner>.anshul>span{
+  display: inline-block;
+  vertical-align: top;
+  background: none;
+}
+
+.banner>.anshul>span:nth-child(1){
+  width: 80%;
+}
+
+.banner>.anshul>span:nth-child(1)>h1{
+  text-align: center;
+  color: gainsboro;
+}
+
+
+.banner>.anshul>span:nth-child(2){
+  width: 15%;
+}
+
+.banner>.anshul>span:nth-child(2)>form{
+  margin:2.5px auto;
+}
+
+.banner>.anshul>span:nth-child(2)>form>input{
+  padding: 15px 30px;
+  border-radius: 10px;
+  border:1px solid #040404;
+  background: #040404;black ;#FFA953;
+  color: gainsboro;
+  font-size: large;
+  opacity: .9;
+}
+
+.banner>.anshul>span:nth-child(2)>form>input:hover{
+  opacity: 1;
+  cursor: pointer;
+  background-color: #FFA953;
+  color:black;
+  box-shadow: 0px 0px 4px #040404;
+}

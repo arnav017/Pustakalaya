@@ -1,0 +1,27 @@
+
+@import url(https://fonts.googleapis.com/css?family=Baloo);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+
+*{
+  font-family:'Californian FB';
+  outline: none;
+  overflow-x:none;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/gallery/stack);
+    background-attachment:fixed;
+    background-repeat: repeat-y;
+}
+
+.widthset{
+  width:80%;
+  margin:auto;
+}
+
+a{
+  text-decoration: none;
+}

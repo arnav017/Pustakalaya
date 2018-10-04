@@ -1,0 +1,205 @@
+.catalogue{
+  width:  auto;
+  height: auto;
+  overflow: auto;
+  opacity: .95;
+  /* background: #EDEDE6; */
+}
+
+.catalogue .filter, .catalogue .display{
+  min-height: max-content;
+  /* max-height:500px; */
+  margin: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  /* overflow-y: scroll; */
+}
+
+.catalogue .filter{
+  left: 0%;
+  width:calc(23% - 10px);
+}
+
+.catalogue .display{
+  right: 0%;
+  width:calc(76% - 10px);
+}
+
+.catalogue>.display>.item{
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+/*  height:250px;*/
+  background:#fff;
+  /* border: 1px solid #edede6; */
+  /* box-shadow: 2px 1px 1px #edede6, 2px 1px 1px #edede6, 2px 1px 1px #edede6; */
+}
+
+.catalogue>.display>.item>.icon,.catalogue>.display>.item>.desc{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin-right:10px;
+  box-sizing: border-box;
+  height: 100%;
+  /* border: 1px solid; */
+}
+
+.catalogue>.display>.item>.icon{
+  width: calc(22% - 15px);
+}
+
+.catalogue>.display>.item>.desc{
+  width: calc(75% - 15px);
+  padding: 0px 20px;
+  letter-spacing: 2px;
+}
+
+.catalogue>.display>.item .dete{
+    display: none;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.catalogue>.display>.item>.icon>img{
+  width: 75%;
+  height:75%;
+}
+
+.catalogue>.display>.item>.desc>.title{
+  /* text-shadow: 1px 1px 1px black,1px 1px 1px gray,1px 1px 1px black; */
+}
+.catalogue>.display>.item>.desc>.metadata{
+  margin: 5px auto;
+  color: #5B5B68;
+  font-weight: normal;
+  letter-spacing: 0;
+  /* font-weight: bolder; */
+  /* text-shadow: 1px 1px 1px gray,1px 1px 1px gr,1px 1px 1px green,1px 1px 1px green; */
+}
+.catalogue>.display>.item>.desc>.price{
+  margin: 15px auto;
+  color: #00C431;
+  font-weight: bolder;
+  /* text-shadow: 1px 1px 1px #00C431,1px 1px 1px #00C431,1px 1px 1px #00C431,1px 1px 1px green; */
+}
+
+.catalogue>.display>.item>.desc>.rate>h4,.catalogue>.display>.item>.desc>.rate>.star{
+  display: inline;
+  vertical-align: bottom;
+}
+
+.catalogue>.display>.item>.desc>.rate>.star{
+  letter-spacing: -3px;
+}
+
+.catalogue>.display>.item>.desc>.rate>.star>img{
+  width: 2%;
+
+}
+
+.catalogue>.display>.item .dete>.para{
+  /* letter-spacing: 1.2px; */
+  color: #4F4F4F;
+  padding: 5px;
+  text-align: justify;
+}
+
+hr{
+  opacity: .2;
+}
+
+
+.catalogue>.filter>div
+{
+    padding: 10px;
+}
+
+.catalogue>.filter>div>form>h1
+{
+    display: inline-block;
+    margin: 5px auto 2px;
+}
+
+.catalogue>.filter>div>form>h3
+{
+    display: inline-block;
+    margin: 5px auto 2px;
+}
+
+.catalogue>.filter>div>form>ul
+{
+  margin: 4px auto 20px;
+  list-style: none;
+  padding-left: 20px ;
+}
+
+.catalogue>.filter>div>form>ul>li>input
+{
+  margin: 10px auto;
+}
+
+.catalogue>.filter>div>form>ul>li
+{
+    color: #7D7D7D;
+}
+
+.catalogue>.filter>div>form>ul>li>input[type='radio']
+{
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+
+.catalogue>.filter>div>form>ul>li:hover
+{
+  cursor: pointer;
+  color: #000;
+}
+
+.cul>li>.clear{
+  background: red;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  opacity: .8;
+}
+
+
+.cul>li>.clear:hover{
+  opacity: 1;
+  box-shadow:0 0 4px red;
+}
+
+.cul{
+  display: inline-block;
+  text-align: right;
+}
+
+.catalogue>.filter>div>form>.aul{
+  display: inline-block;
+  text-align: right;
+}
+
+.catalogue>.filter>div>form>.aul>li>input
+{
+  background: lightGREEN;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.catalogue>.filter>div>form>.aul>li>input:hover{
+  opacity: 1;
+  box-shadow:0 0 4px GREEN;
+}

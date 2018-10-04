@@ -1,0 +1,11 @@
+.gallery{
+  height: 100px;
+  width: auto;
+  /* background-color: #FF9933; */
+  box-sizing: border-box;
+}
+
+.gallery>img{
+  /* width: 50%; */
+  /* height: 100%; */
+}

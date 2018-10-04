@@ -1,0 +1,94 @@
+*{
+  font-family: 'Californian FB';
+}
+
+.emailform,.tag
+{
+  width: 400px;
+  margin: auto;
+}
+
+.tag{
+  margin-bottom: 0;
+  margin-top: 100px;
+  text-align: right;
+  padding: none;
+}
+
+.tag>p{
+  margin-bottom: 2px;
+  padding: none;
+}
+
+.tag>p>span{
+  background-color: #FF9933;
+  transform: skewx(-10deg);
+  display: inline-block;
+  padding:5px 10px;
+}
+.tag>p>span>span{
+  transform: skewx(10deg);
+  display: inline-block;
+}
+
+.emailform{
+  padding: 20px;
+  box-shadow: 0px 0px 4px #000a;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.emailform>form
+{
+  margin: 20px auto;
+  letter-spacing:10px;
+}
+
+.emailform>form>input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.emailform>form>input[type='text']{
+  box-shadow: 0px 0px 4px #000a;
+  border-radius: 5px;
+  outline-color: #FF9933;
+}
+
+.emailform>form>input[type='submit']
+{
+  box-shadow: 0px 0px 4px #000a;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.emailform>form>input[type='submit']:hover
+{
+  background: #FF9933;
+  box-shadow: 0px 0px 4px #FF9933;
+  color: #fff;
+}
+
+.emailform>.otpaction>input[type='text']
+{
+  text-align: center;
+  width: 30px;
+  outline-color: #49A370;
+}
+
+.opacity0{
+  opacity: 0;
+}
+
+.opacity5{
+  opacity: 0.5;
+}
+
+.emailform>.otpaction>input[type='submit']:hover
+{
+  background: #49A370;
+  box-shadow: 0px 0px 4px #49A370;
+}
