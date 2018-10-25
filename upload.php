@@ -1,16 +1,5 @@
 <?php
-      $s="localhost";
-      $p="";
-      $u="root";
-      $d="pustakalaya";
-
-      $con=mysqli_connect($s,$u,$p,$d);
-
-      if(!$con)
-      {
-          die("Connection Failed");
-      }
-
+   require "connection.php";
 
 
 session_start();
