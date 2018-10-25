@@ -1,13 +1,5 @@
 <?php
-    $username="root";
-    $password="kronosServer";
-    $database="pustakalaya";
-    $servername="localhost";
-    $conn=mysqli_connect($servername,$username,$password,$database);
-    if(!$conn)
-    {
-      die("Connection failed");
-    }
+require "connection.php";
 
 
     $sql='drop table admin;';
