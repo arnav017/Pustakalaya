@@ -1,8 +1,5 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="kronosServer";
-$dbname="pustakalaya";
+require "connection.php";
 
 session_start();
 //echo "<br>";
