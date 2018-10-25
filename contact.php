@@ -1,9 +1,5 @@
 <?php
-    $s="localhost";
-    $p="";
-    $u="root";
-    $d="pustakalaya";
-
+   require "connection.php";
     $con=mysqli_connect($s,$u,$p,$d);
 
     if(!$con)
