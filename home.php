@@ -1,16 +1,5 @@
 <?php
-    $s="localhost";
-    $p="kronosServer";
-    $u="root";
-    $d="pustakalaya";
-
-    $con=mysqli_connect($s,$u,$p,$d);
-
-    if(!$con)
-    {
-        die("Connection Failed");
-    }
-    session_start();
+   require_once('connection.php');
 ?>
 
 
